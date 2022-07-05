@@ -1,0 +1,266 @@
+.japanese {
+    text-align: center;
+    font-family: balboa-plus-fill,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #E4DCD1;
+    font-size: 80px;  
+    margin-top: 125px;
+  }
+  
+  .leftline-j {
+    width: 460px;
+       height: 2px;
+       background-color: #E4DCD1;
+       justify-content: left;
+       margin-left: 152px;
+       margin-top: -50px;
+  }
+  
+  .rightline-j {
+    position: absolute;
+    width: 460px;
+       height: 2px;
+       background-color: #E4DCD1;
+       justify-content: right;
+       margin-left: 920px;
+       margin-top: 0px;
+  }
+
+
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .card-container {
+    background-color: none;
+    width: 100vw;
+    height: 90vh;
+    display: grid;
+    place-items: center;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+
+  .card-container::-webkit-scrollbar {
+    width: 12px;      
+  }
+  
+  .card-container::-webkit-scrollbar-track {
+    background: #0F0F0F;       
+  }
+  
+  .card-container::-webkit-scrollbar-thumb {
+    background-color: #242424; 
+    border-radius: 20px;
+  }
+
+
+
+
+  body::-webkit-scrollbar {
+    width: 12px;      
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #0F0F0F;       
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #242424; 
+    border-radius: 20px;
+  }
+  
+  .card {
+    background-color: #E4DCD1;
+    height: 68vh;
+    width: 70vw;
+    border-radius: 30px;
+    box-shadow: 0px 5px 30px 1px rgba(0, 0.5, 2, 0.1);
+    font-size: 10rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: grid;
+    place-items: center;
+    margin: 2.5vh 0;
+    position: sticky;
+    top: 10vh;
+    will-change: auto;
+  }
+
+
+
+
+/*INDIVIDUAL RESTAURANTS*/
+
+
+
+
+.container-rt {
+    height: 68vh;
+    width: 70vw;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 60px;
+}
+
+.heading-rt {
+    text-align: left;
+    font-family: balboa-plus-fill,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0F0F0F;
+    font-size: 50px;  
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+}
+
+.rating {
+    display: inline-block;
+    width: 75px;
+    height: 13px;
+    margin-top: -50px;
+    margin-left: 850px;
+}
+
+.line-rt {
+    width: 61vw;
+    height: 2px;
+    background-color: #0F0F0F;
+}
+
+.btext-rt {
+    font-family: le-havre,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #0F0F0F;
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 15px;
+}
+
+.izumi1 {
+    width: 303px;
+    height: 192px;
+}
+
+.izumi2 {
+    width: 306px;
+    height: 192px;
+    margin-left: -30px;
+}
+
+.izumi3 {
+    width: 292px;
+    height: 192px;
+    margin-left: -30px;
+}
+
+
+
+
+.kofu1 {
+  width: 290px;
+  height: 190px;
+}
+
+.kofu2 {
+  width: 297px;
+  height: 187px;
+  margin-left: -30px;
+}
+
+.kofu3 {
+  width: 302px;
+  height: 196px;
+  margin-left: -30px;
+}
+
+
+
+.ori1 {
+  width: 333px;
+  height: 250px;
+}
+
+.ori2 {
+  width: 337px;
+  height: 253px;
+  margin-left: -30px;
+}
+
+.ori3 {
+  width: 287px;
+  height: 191px;
+  margin-left: -30px;
+}
+
+
+
+
+.site {
+    font-family: le-havre,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #0F0F0F;
+    text-align: left;
+    margin-top: -18px;
+}
+
+.loc{
+    font-family: le-havre,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #0F0F0F;
+    text-align: right;
+    margin-top: -18px;
+    margin-right: 18px;
+}
+
+
+
+
+.hover-underline-animation-rt {
+    display: inline-block;
+    position: relative;
+    color: #0F0F0F;
+  }
+  
+  .hover-underline-animation-rt:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #0F0F0F;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .hover-underline-animation-rt:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
+
+  .container-foot-chi {
+    position: relative;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -90px;
+}
+
+
+
+

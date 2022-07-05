@@ -1,0 +1,182 @@
+<html>
+
+<head>
+<title>Japanese Restaurants</title>
+
+<link rel="icon" href="logo.svg" type="image/x-icon">
+<link rel="stylesheet" href="fade.css">
+<link rel="stylesheet" href="header_footer.css">
+<link rel="stylesheet" href="foodsci.css">
+<link rel="stylesheet" href="japanese.css">
+<link rel="stylesheet" href="https://use.typekit.net/tud7hti.css">
+<link rel="stylesheet" href="https://use.typekit.net/ben5lpw.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <svg id="fader"></svg>
+
+  <script>
+    fadeInPage();
+    function fadeInPage() {
+      if (!window.AnimationEvent) { return; }
+      var fader = document.getElementById('fader');
+    fader.classList.add('fade-out');
+}
+</script>
+
+<script src="fade.js"></script> 
+
+
+
+<div class="navbar">
+  <div class="heading">
+    <div class="hover-underline-animation"><a href="foodsci.html">FOOD SCIENCE</a></div>  |  <a href="foodhall.html"><div class="current">RESTAURANTS</div></a>  |  <div class="hover-underline-animation"><a href="foodhall.html">FOODHALL</a></div>  |  <div class="hover-underline-animation"><a href="about.html">ABOUT</a></div>
+</div>
+<div class="smollogo"><a href="index.html" target="_blank"><img src="logo.svg"/></a></div>
+</div>
+
+
+<div class="japanese">Japanese</div>
+<div class="leftline-j"></div>
+<div class="rightline-j"></div>
+
+
+<script>
+// let cards = document.querySelectorAll(".card");
+// cards[0].addEventListener("click", (e)=> {
+//     console.log(e)
+// })
+let cardContainer = document.querySelector(".card-container");
+cardContainer.addEventListener("scroll", (e) => {
+  // console.log(e.target.scrollHeight);
+  let scrolled = e.target.scrollTop;
+  let clientHeight = e.target.clientHeight;
+  // console.log(scrolled);
+  // console.log(clientHeight);
+  let extra = 70;
+  let percent = (scrolled / clientHeight);
+  let cards = document.querySelectorAll(".card");
+  percent = (percent / Math.ceil(percent)).toFixed(2)
+  // console.log(percent)
+  cards.forEach((card, index) => {
+    console.log(index + " " + card.offsetTop)
+    if (card.offsetTop == ((card.offsetTop) * index)) {
+      console.log(`Card ${index} found`)
+    }
+    // let blur = percent*2;
+    // card.style.filter = `blur(${blur}px) opacity(${150 - percent*100}%)`;    
+  })
+  // card1.style.filter = `blur(${blur}px) opacity(${150 - percent*100}%)`;
+  // console.log(card1.clientWidth)
+  // card1.clientWidth -= (percent * 2);
+  // console.log(card1.clientWidth)
+  // card1.style.transform = `translateY(-${percent*10}px)`
+  // console.log(percent.toFixed(2))
+})
+</script>
+
+
+<section class="card-container">
+
+
+<div class="card-1 card">
+<div class="container-rt">
+
+    <div class="heading-rt">IZUMI</div>
+    <img src="izumistar.png" class="rating">
+    <div class="line-rt"></div>
+
+    <div class="btext-rt">In this city’s newest Japanese restaurant, good things take the form of big bowls of noodle-heavy ramen, delicate rolls of sushi and a pudding that’s smoother than silk. Izumi is tiny but big on heart, and portion sizes. See their 
+        <a href="https://www.dineout.co.in/mumbai/izumi-bandra-west-bandra-57480/menu"><b><div class="hover-underline-animation-rt">MENU</div></b></a> here.
+    </div>
+
+    <img src="izumi1.jpg" class="izumi1"/>
+    <img src="izumi2.jpg" class="izumi2"/>
+    <img src="izumi3.jpg" class="izumi3"/>
+
+    <div class="site"><a href="https://www.google.com/search?q=izumi+bandra&bih=713&biw=1536&rlz=1C1UEAD_enIN966IN966&hl=en&sxsrf=AOaemvKHrHn-F--MNWYHmk0XanWPGwGq9g%3A1639686244491&ei=ZKC7Yd-eHdyVr7wPzN0W&oq=izumi+&gs_lcp=Cgdnd3Mtd2l6EAEYADIECCMQJzIECCMQJzIQCC4QgAQQhwIQxwEQrwEQFDIFCAAQgAQyBQgAEIAEMgUIABCABDINCAAQgAQQhwIQsQMQFDIFCAAQgAQyBQgAEIAEMgUIABCABDoHCCMQsAMQJzoHCAAQRxCwAzoKCAAQRxCwAxDJAzoHCAAQsAMQQzoQCC4QxwEQrwEQyAMQsAMQQzoKCC4QyAMQsAMQQzoHCAAQgAQQCjoLCC4QgAQQxwEQrwE6CwgAEIAEELEDEIMBSgQIQRgASgQIRhgBUIcGWJMKYLQdaAFwAHgAgAG7AYgBoAWSAQMwLjSYAQCgAQHIARLAAQE&sclient=gws-wiz"><div class="hover-underline-animation-rt"><i class="fa fa-external-link"></i>&nbsp;www.izumi.com</div></a></div>
+
+    <div class="loc"><a href="https://goo.gl/maps/kWHoYYBEz9agZ3jG8"><div class="hover-underline-animation-rt"><i class="fa fa-map-marker"></i>&nbsp; Ground Floor, Sunrise Bldg, Rd Number 24, Mumbai, Maharashtra 400050</div></a></div>
+</div>
+</div>
+
+
+
+  <div class="card-2 card">
+    <div class="container-rt">
+    
+        <div class="heading-rt">KOFUKU</div>
+        <img src="izumistar.png" class="rating">
+        <div class="line-rt"></div>
+    
+        <div class="btext-rt">The temporary nip in Mumbai’s air is the perfect reason to seek out their warmth-inducing bowl-that cheers. The casual dining Japanese restaurant serves a distraction-free bowl of miso ramen that gets straight to the point: noodles, pork and broth.  See their 
+            <a href="https://www.eazydiner.com/mumbai/kofuku-bandra-west-223475"><b><div class="hover-underline-animation-rt">MENU</div></b></a> here.
+        </div>
+    
+        <img src="kofu1.jpg" class="kofu1"/>
+        <img src="kofu2.jpg" class="kofu2"/>
+        <img src="kofu3.jpg" class="kofu3"/>
+    
+        <div class="site"><a href="https://www.google.com/search?q=izumi+bandra&bih=713&biw=1536&rlz=1C1UEAD_enIN966IN966&hl=en&sxsrf=AOaemvKHrHn-F--MNWYHmk0XanWPGwGq9g%3A1639686244491&ei=ZKC7Yd-eHdyVr7wPzN0W&oq=izumi+&gs_lcp=Cgdnd3Mtd2l6EAEYADIECCMQJzIECCMQJzIQCC4QgAQQhwIQxwEQrwEQFDIFCAAQgAQyBQgAEIAEMgUIABCABDINCAAQgAQQhwIQsQMQFDIFCAAQgAQyBQgAEIAEMgUIABCABDoHCCMQsAMQJzoHCAAQRxCwAzoKCAAQRxCwAxDJAzoHCAAQsAMQQzoQCC4QxwEQrwEQyAMQsAMQQzoKCC4QyAMQsAMQQzoHCAAQgAQQCjoLCC4QgAQQxwEQrwE6CwgAEIAEELEDEIMBSgQIQRgASgQIRhgBUIcGWJMKYLQdaAFwAHgAgAG7AYgBoAWSAQMwLjSYAQCgAQHIARLAAQE&sclient=gws-wiz"><div class="hover-underline-animation-rt"><i class="fa fa-external-link"></i>&nbsp;www.kofuku.com</div></a></div>
+    
+        <div class="loc"><a href="https://goo.gl/maps/Q4LQTwuMpEtgJ19k9"><div class="hover-underline-animation-rt"><i class="fa fa-map-marker"></i>&nbsp; Suburbia Mall, Above Shoppers Stop, Linking Road, Bandra West, Mumbai, Maharashtra 400052</div></a></div>
+    </div>
+  </div>
+
+
+
+
+  <div class="card-3 card">
+    <div class="container-rt">
+    
+        <div class="heading-rt">ORIGAMI</div>
+        <img src="izumistar.png" class="rating">
+        <div class="line-rt"></div>
+    
+        <div class="btext-rt">Origami brings to you the most authentic Korean and Japanese cuisines and serves them right, everytime. You can find the most authentic Oriental delicacies right at the heart of Mumbai at Origami in Powai. See their 
+            <a href="https://www.zomato.com/mumbai/origami-japanese-and-korean-restaurant-powai/menu"><b><div class="hover-underline-animation-rt">MENU</div></b></a> here.
+        </div>
+    
+        <img src="ori1.jpg" class="izumi1"/>
+        <img src="ori2.png" class="izumi2"/>
+        <img src="ori3.jpg" class="izumi3"/>
+    
+        <div class="site"><a href="https://www.zomato.com/mumbai/origami-japanese-and-korean-restaurant-powai"><div class="hover-underline-animation-rt"><i class="fa fa-external-link"></i>&nbsp;www.origami.com</div></a></div>
+    
+        <div class="loc"><a href="https://goo.gl/maps/vXdchGd55as8yAzp6"><div class="hover-underline-animation-rt"><i class="fa fa-map-marker"></i>&nbsp; SERVICE OFFICE, Hiranandani Gardens, Powai, Mumbai, Maharashtra 400076</div></a></div>
+    </div>
+  </div>
+</section>
+
+
+
+<div class="container-foot-chi">
+<div class="container-foot">
+
+    <div id="line"></div>
+    
+    <div class="center">
+      <div id="social-test">
+      <ul class="social">
+        <li><a href="https://www.facebook.com/GetNomNom/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/nomnomcafe_ie" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/nomnom/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="mailto:aahaana2512@hotmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+      </ul>
+      </div>
+        </div>
+    
+        <div class="foottext"><a href="https://goo.gl/maps/VJ3u8aVnPqnfxV2z5" target="_blank"><div class="hover-underline-animation-ad"><i class="fa fa-map-marker"></i>&nbsp; 12 Bamboo House, Saraswati Road, Santacruz West, Mumbai - 400054</div></a></div>
+    
+        <div class="footend"> &copy; 2021 Nom Nom. All Rights Reserved</div>
+    
+    </div>
+</div>
+
+
+</body>
+
+</html>

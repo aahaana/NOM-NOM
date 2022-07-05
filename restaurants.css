@@ -1,0 +1,656 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+    src: url(Authentic\ Signature.otf);
+    font-family: Authentic signature;
+    }
+
+body {
+    background-color: #0F0F0F;
+    align-items:center;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+
+  body::-webkit-scrollbar {
+    width: 12px;      
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #0F0F0F;       
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #242424; 
+    border-radius: 20px;
+  }
+
+
+  .container-rest {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.container-cuis {
+    border-color: #E4DCD1;
+    border-radius: 0%;
+    height: 600px;
+    width: 1100px;
+    background-color: none;
+    margin-left: 200px;
+    margin-top: 100px;
+    padding: 15px;
+}
+
+.indian {
+    float: left;
+    height: 280px;
+    width: 27%;
+    background-color: #E4DCD1;
+    border-radius: 5%;
+    margin-right: 15px;
+}
+
+.chinese {
+    float: left;
+    height: 280px;
+    width: 40%;
+    background-color: #E4DCD1;
+    border-radius: 5%;
+    margin-right: 15px;
+}
+
+.japanese {
+    float: left;
+    height: 380px;
+    width: 30%;
+    background-color: #E4DCD1;
+    border-radius: 5%;
+}
+
+.street {
+    height: 280px;
+    width: 68.5%;
+    background-color: #E4DCD1;
+    border-radius: 5%;
+    margin-top: 295px;
+}
+
+.italian {
+    height: 176px;
+    width: 30%;
+    background-color: #E4DCD1;
+    border-radius: 5%;
+    margin-left: 748px;
+    margin-top: -180px;
+}
+
+
+
+
+/* JAPANESE */
+
+
+
+
+figure.effect-bubba_jap {
+	background: #d48105;
+    height: 380px;
+    width: 321px;
+    border-radius: 5%;
+    padding: 0px;
+}
+
+figure.effect-bubba_jap img {
+	opacity: 0.9;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+    border-radius: 5%;
+}
+
+figure.effect-bubba_jap:hover img {
+	opacity: 0.4;
+    border-radius: 5%;
+}
+
+figure.effect-bubba_jap figcaption::before,
+figure.effect-bubba_jap figcaption::after {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	left: 10px;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-bubba_jap figcaption::before {
+	border-top: 2px solid #E4DCD1;
+	border-bottom: 2px solid #E4DCD1;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+    height: 345px;
+    width: 290px;
+    margin-top: 333px;
+    margin-left: 977px;
+}
+
+figure.effect-bubba_jap figcaption::after {
+	border-right: 2px solid #E4DCD1;
+	border-left: 2px solid #E4DCD1;
+	-webkit-transform: scale(1,0);
+	transform: scale(1,0);
+    height: 345px;
+    width: 290px;
+    margin-top: 333px;
+    margin-left: 977px;
+}
+
+figure.effect-bubba_jap h2 {
+    font-family: balboa-plus-fill,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: #E4DCD1;
+    color: #0F0F0F;
+    padding-left: 5px;
+    padding-right: 2px;
+
+    margin-top: -270px;
+	padding-bottom: 0px;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,-60px,0);
+	transform: translate3d(0,-40px,0);
+}
+
+figure.effect-bubba_jap p {
+    font-family: le-havre,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #E4DCD1;
+    text-align: center;
+	padding: 10px;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0);
+	transform: translate3d(0,20px,0);
+}
+
+figure.effect-bubba_jap:hover figcaption::before,
+figure.effect-bubba_jap:hover figcaption::after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.effect-bubba_jap:hover h2,
+figure.effect-bubba_jap:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+
+
+
+/* INDIAN */
+
+
+
+
+figure.effect-bubba_ind {
+	background: #E07220;
+    height: 280px;
+    width: 289px;
+    border-radius: 5%;
+    padding: 0px;
+}
+
+figure.effect-bubba_ind img {
+	opacity: 0.9;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+    border-radius: 5%;
+}
+
+figure.effect-bubba_ind:hover img {
+	opacity: 0.4;
+    border-radius: 5%;
+}
+
+figure.effect-bubba_ind figcaption::before,
+figure.effect-bubba_ind figcaption::after {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	left: 10px;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-bubba_ind figcaption::before {
+	border-top: 2px solid #E4DCD1;
+	border-bottom: 2px solid #E4DCD1;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+    height: 250px;
+    width: 260px;
+    margin-top: 330px;
+    margin-left: 230px;
+}
+
+figure.effect-bubba_ind figcaption::after {
+	border-right: 2px solid #E4DCD1;
+	border-left: 2px solid #E4DCD1;
+	-webkit-transform: scale(1,0);
+	transform: scale(1,0);
+    height: 250px;
+    width: 260px;
+    margin-top: 330px;
+    margin-left: 230px;
+}
+
+figure.effect-bubba_ind h2 {
+    font-family: balboa-plus-fill,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: #E4DCD1;
+    color: #0F0F0F;
+    padding-left: 5px;
+    padding-right: 2px;
+
+    margin-top: -170px;
+	padding-bottom: 0px;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,-60px,0);
+	transform: translate3d(0,-40px,0);
+}
+
+figure.effect-bubba_ind p {
+    font-family: le-havre,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #E4DCD1;
+    text-align: center;
+	padding: 10px;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0);
+	transform: translate3d(0,20px,0);
+}
+
+figure.effect-bubba_ind:hover figcaption::before,
+figure.effect-bubba_ind:hover figcaption::after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.effect-bubba_ind:hover h2,
+figure.effect-bubba_ind:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+
+
+
+/* ITALIAN */
+
+
+
+
+figure.effect-bubba_ita {
+	background: #076b3c;
+    height: 176px;
+    width: 321px;
+    border-radius: 5%;
+    padding: 0px;
+}
+
+figure.effect-bubba_ita img {
+	opacity: 0.9;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+    border-radius: 5%;
+}
+
+figure.effect-bubba_ita:hover img {
+	opacity: 0.4;
+    border-radius: 5%;
+}
+
+figure.effect-bubba_ita figcaption::before,
+figure.effect-bubba_ita figcaption::after {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	left: 10px;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-bubba_ita figcaption::before {
+	border-top: 2px solid #E4DCD1;
+	border-bottom: 2px solid #E4DCD1;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+    height: 150px;
+    width: 290px;
+    margin-top: 723px;
+    margin-left: 978px;
+}
+
+figure.effect-bubba_ita figcaption::after {
+	border-right: 2px solid #E4DCD1;
+	border-left: 2px solid #E4DCD1;
+	-webkit-transform: scale(1,0);
+	transform: scale(1,0);
+    height: 150px;
+    width: 290px;
+    margin-top: 723px;
+    margin-left: 978px;
+}
+
+figure.effect-bubba_ita h2 {
+    font-family: balboa-plus-fill,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: #E4DCD1;
+    color: #0F0F0F;
+    padding-left: 5px;
+    padding-right: 2px;
+
+    margin-top: -110px;
+	padding-bottom: 0px;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,-60px,0);
+	transform: translate3d(0,-40px,0);
+}
+
+figure.effect-bubba_ita p {
+    font-family: le-havre,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #E4DCD1;
+    text-align: center;
+	padding: 10px;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0);
+	transform: translate3d(0,20px,0);
+}
+
+figure.effect-bubba_ita:hover figcaption::before,
+figure.effect-bubba_ita:hover figcaption::after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.effect-bubba_ita:hover h2,
+figure.effect-bubba_ita:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+
+
+
+
+/* CHINESE */
+
+
+
+
+figure.effect-bubba_chi {
+	background: #841E1E;
+    height: 280px;
+    width: 428px;
+    border-radius: 5%;
+    padding: 0px;
+}
+
+figure.effect-bubba_chi img {
+	opacity: 0.95;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+    border-radius: 5%;
+}
+
+figure.effect-bubba_chi:hover img {
+	opacity: 0.4;
+    border-radius: 5%;
+}
+
+figure.effect-bubba_chi figcaption::before,
+figure.effect-bubba_chi figcaption::after {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	left: 10px;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-bubba_chi figcaption::before {
+	border-top: 2px solid #E4DCD1;
+	border-bottom: 2px solid #E4DCD1;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+    height: 248px;
+    width: 395px;
+    margin-top: 332px;
+    margin-left: 535px;
+}
+
+figure.effect-bubba_chi figcaption::after {
+	border-right: 2px solid #E4DCD1;
+	border-left: 2px solid #E4DCD1;
+	-webkit-transform: scale(1,0);
+	transform: scale(1,0);
+    height: 248px;
+    width: 395px;
+    margin-top: 332px;
+    margin-left: 535px;
+}
+
+figure.effect-bubba_chi h2 {
+    font-family: balboa-plus-fill,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: #E4DCD1;
+    color: #0F0F0F;
+    padding-left: 5px;
+    padding-right: 2px;
+
+    margin-top: -170px;
+	padding-bottom: 0px;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,-60px,0);
+	transform: translate3d(0,-40px,0);
+}
+
+figure.effect-bubba_chi p {
+    font-family: le-havre,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #E4DCD1;
+    text-align: center;
+	padding: 10px;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0);
+	transform: translate3d(0,20px,0);
+}
+
+figure.effect-bubba_chi:hover figcaption::before,
+figure.effect-bubba_chi:hover figcaption::after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.effect-bubba_chi:hover h2,
+figure.effect-bubba_chi:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+
+
+
+
+/* STREET FOOD */
+
+
+
+
+figure.effect-bubba_stf {
+	background: #7c7e1c;
+    height: 280px;
+    width: 733px;
+    border-radius: 5%;
+    padding: 0px;
+}
+
+figure.effect-bubba_stf img {
+	opacity: 0.95;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+    border-radius: 5%;
+    margin-top: -85px;
+}
+
+figure.effect-bubba_stf:hover img {
+	opacity: 0.4;
+    border-radius: 5%;
+}
+
+figure.effect-bubba_stf figcaption::before,
+figure.effect-bubba_stf figcaption::after {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	left: 10px;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-bubba_stf figcaption::before {
+	border-top: 2px solid #E4DCD1;
+	border-bottom: 2px solid #E4DCD1;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+    height: 248px;
+    width: 700px;
+    margin-top: 625px;
+    margin-left: 232px;
+}
+
+figure.effect-bubba_stf figcaption::after {
+	border-right: 2px solid #E4DCD1;
+	border-left: 2px solid #E4DCD1;
+	-webkit-transform: scale(1,0);
+	transform: scale(1,0);
+    height: 248px;
+    width: 700px;
+    margin-top: 625px;
+    margin-left: 232px;
+}
+
+figure.effect-bubba_stf h2 {
+    font-family: balboa-plus-fill,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: #E4DCD1;
+    color: #0F0F0F;
+    padding-left: 5px;
+    padding-right: 2px;
+
+    margin-top: -114px;
+	padding-bottom: 0px;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,-60px,0);
+	transform: translate3d(0,-40px,0);
+}
+
+figure.effect-bubba_stf p {
+    font-family: le-havre,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #E4DCD1;
+    text-align: center;
+	padding: 10px;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0);
+	transform: translate3d(0,20px,0);
+}
+
+figure.effect-bubba_stf:hover figcaption::before,
+figure.effect-bubba_stf:hover figcaption::after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.effect-bubba_stf:hover h2,
+figure.effect-bubba_stf:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}

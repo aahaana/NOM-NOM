@@ -1,0 +1,18 @@
+.leftline-jo {
+    width: 340px;
+       height: 2px;
+       background-color: #E4DCD1;
+       justify-content: left;
+       margin-left: 152px;
+       margin-top: -59.5px;
+  }
+  
+  .rightline-jo {
+    position: absolute;
+    width: 345px;
+       height: 2px;
+       background-color: #E4DCD1;
+       justify-content: right;
+       margin-left: 1030px;
+       margin-top: 0px;
+  }

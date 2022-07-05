@@ -1,0 +1,264 @@
+@font-face {
+  src: url(Authentic\ Signature.otf);
+  font-family: Authentic signature;
+  }
+  
+ 
+
+body {
+  background-color: #0F0F0F;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+
+body::-webkit-scrollbar {
+  width: 12px;      
+}
+
+body::-webkit-scrollbar-track {
+  background: #0F0F0F;       
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #242424; 
+  border-radius: 20px;
+}
+
+
+.logo {
+  position: relative;
+  top: -120px;
+  right: 160px;
+  font-family: Authentic signature;
+  color: #E4DCD1;
+  font-size: 260px;
+  line-height: 180px;
+}
+
+.restaurants {
+  position: absolute;
+  margin: -400px 990px 40px 340px;
+  font-family: balboa-plus-fill,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #E4DCD1;
+  font-size: 27px;
+  letter-spacing: 7px;
+}
+
+.foodhall {
+  position: absolute;
+  margin: -330px -310px 40px 340px;
+  font-family: balboa-plus-fill,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #E4DCD1;
+  font-size: 27px;
+  letter-spacing: 7px;
+}
+
+.foodsci {
+  position: absolute;
+  margin: -150px 420px -487px 340px;
+  font-family: balboa-plus-fill,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #E4DCD1;
+  font-size: 27px;
+  letter-spacing: 7px;
+}
+
+
+.green {
+  height: 120px;
+  width: 120px;
+  background-color: #045142;
+  border-radius: 50%;
+}
+
+.red {
+  height: 105px;
+  width: 105px;
+  background-color: #FE4A49;
+  border-radius: 50%;
+}
+
+.yellow {
+  height: 100px;
+  width: 100px;
+  background-color: #f8b858;
+  border-radius: 50%;
+}
+
+.left {
+  position: relative;
+  top: -220px;
+  left: -30px;
+}
+
+.right {
+  position: relative;
+  top: -190px;
+  right: -530px;
+}
+
+.bottom {
+  position: relative;
+  bottom: -90px;
+  left: 40px;
+}
+
+p {
+  transition: 0.5s; 
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+#a:hover {
+  letter-spacing: 13px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #E4DCD1;
+}
+
+a:visited {
+  text-decoration: none;
+  color:  #E4DCD1;
+}
+
+
+
+
+
+.container-foot {
+  position: absolute;
+  margin-top: 700px;
+  margin-left: -160px;
+}
+
+#line {
+   width: 1400px;
+   height: 2px;
+   background-color: #E4DCD1;
+   justify-content: center;
+   margin-left: 160px;
+   margin-top: 100px;
+   margin-bottom: -31px;
+}
+
+.foottext{
+font-family: balboa-plus-fill,sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #E4DCD1;
+font-size: 12px;
+letter-spacing: 1px;
+text-align: center;
+margin-top: -73px;
+z-index: inherit;
+margin-left: 190px;
+}
+
+.footend{
+font-family: balboa-plus-fill,sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #E4DCD1;
+font-size: 10px;
+letter-spacing: 2px;
+text-align: center;
+margin-top: 20px;
+z-index: inherit;
+margin-left: 190px;
+}
+
+.center {
+  display: table;
+  height: 21vh;
+  padding: 30px;
+  margin-left: 0px;
+}
+
+#social-test {
+  display: inline-table;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 690px;
+  margin-top: 30px;
+}
+
+  .social {
+    display: flex;
+    padding-left: 0px;
+    float: none;
+    max-width: inherit;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  
+  li {
+    display: flex;
+    color: #E4DCD1;
+    list-style-type: none;
+    display: inline-block;
+    width: 47px;
+    height: 20px;
+    line-height: 50px;
+    padding: 4.5%;
+    border: 2px solid #E4DCD1;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    transition: ease .3s;
+    max-width: inherit;
+  } 
+
+    li:hover {
+      color: #E4DCD1;
+      border: 1px solid #E4DCD1;
+    }
+
+.social:hover > li {
+  opacity: 0.2;
+}
+
+.social:hover > li:hover {
+  opacity: 1;
+}
+
+
+.hover-underline-animation-ad {
+  display: inline-block;
+  position: relative;
+  color: #E4DCD1;
+}
+
+.hover-underline-animation-ad:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #E4DCD1;
+  transform-origin: bottom right;
+  transition: transform 0.35s ease-out;
+}
+
+.hover-underline-animation-ad:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+
+
+
